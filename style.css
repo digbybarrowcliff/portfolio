@@ -34,7 +34,7 @@ html {
 }
 .navbar .about:hover {
     background-color: #ffb6c2;
-    transition: 0.7s;
+    transition: 0.3s;
     /* -webkit-transform: scale(12);
     -ms-transform: scale(2);
     transform: scale(2);
@@ -42,15 +42,17 @@ html {
     max-height: inherit; */
 }
 .navbar .portfolio:hover {
-    background-color: #ffb6c2;
-    transition: 0.7s;
+    /* background-color: #ffb6c2; */
+    transition: 0.3s;
     /* -webkit-transform: scale(12);
     -ms-transform: scale(2);
     transform: scale(2); */
+    background: radial-gradient(#ffb6c2);
+    box-shadow: 2px, 2px, 2px, rgba(255, 0, 0, 0.711)
 }
 .navbar .contact:hover {
     background-color: #ffb6c2;
-    transition: 0.7s;
+    transition: 0.3s;
     /* -webkit-transform: scale(12);
     -ms-transform: scale(2);
     transform: scale(2); */
@@ -82,7 +84,7 @@ html {
     align-items: center;
     margin-right: 70px;
     background-color: transparent;
-    transition: 0.5s;
+    transition: 1s;
 }
 /* .navbar:hover {
     opacity: 1;
@@ -168,11 +170,11 @@ img {
     inline-size: 471px;
     block-size: 471px;
     /* border: 2px solid black; */
-    transition: 0.3s;
+    transition: 0.7s;
 }
 
 .portfoliopics img:hover {
-    transition: 0.7s;
+    transition: 0.3s;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
