@@ -9,26 +9,23 @@ html {
 .navbar {
     font-size: 65.5px;
     /* border: 1px solid black; */
-    display:flex; /*look up a complete guide to flexbox for more info */
+    display: flex; /*look up a complete guide to flexbox for more info */
     justify-content: space-around;
     align-items: center;
     overflow: auto;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    width: 100; /* Full width */
     background-color: transparent;
     transition: 1s;
-    border: solid black 2px;
 }
 .navbar a {
     float: left;
     display: block;
     background-color: transparent;
     text-align: center;
-    /* padding: 28px 16px; */
+    padding: 14px 16px;
     text-decoration: none;
-    border: solid black 2px;
-    margin:0[];
 }
 .navbar .about:hover {
     background-color: #ffb6c2;
@@ -63,12 +60,6 @@ html {
     align-items: center;
     margin-right: 70px;
     background-color: transparent;  
-}
-.navbar .about:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 0.5s;
 }
 /* .navbar:hover {
     opacity: 1;
@@ -157,19 +148,21 @@ h4 {
     padding-right: 50px;
     /* border: 2px solid black; */
     background-color: transparent;
+    transition: 0.5s
 }
 .mailicon:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s;
 }
-
-.icon:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
+.githubicon:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 0.5s;
 }
-
-/* .githubicon {
-    border: 2px solid black;
-} */
+.githubicon {
+    /* border: 2px solid black; */
+    transition: 0.5s
+}
