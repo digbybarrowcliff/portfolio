@@ -33,7 +33,7 @@ html {
     max-height: inherit;
 }
 .navbar .about:hover {
-    background-color: #ffb6c2;
+    /* background-color: #ffb6c2; */
     transition: 0.3s;
     /* -webkit-transform: scale(12);
     -ms-transform: scale(2);
@@ -51,7 +51,7 @@ html {
     box-shadow: 2px, 2px, 2px, rgba(255, 0, 0, 0.711)
 }
 .navbar .contact:hover {
-    background-color: #ffb6c2;
+    /* background-color: #ffb6c2; */
     transition: 0.3s;
     /* -webkit-transform: scale(12);
     -ms-transform: scale(2);
