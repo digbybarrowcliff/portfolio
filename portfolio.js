@@ -8,8 +8,6 @@
 // scrollFunction();
 // // const navbar = document.getElementById("navbar");
 
-// testing to change
-
 
 
 
