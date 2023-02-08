@@ -34,22 +34,26 @@ body {
     color: pink;
     justify-content: center;
     margin-left: 30px;
-
+    position: relative;
+}
+.navbarBox a {
+    color: pink;
+    transition: 0.3s;
 }
 .navbarBox :hover {
-    transition: color, 0.7s ease-out;
     color: blue;
+    transition: 0.8s;
 }
 .navbarBox a:link {
-    color: pink;
+    color: #ffb6c2;
     text-decoration: none;
 }
-.navbarBox a:visited {
+/* .navbarBox a:visited {
     color: pink;
-}
-.navbarBox a:active {
+} */
+/* .navbarBox a:active {
     color: pink;
-}
+} */
 #navbarPortfoliobox {
     width: 100%;
     margin-left: 7px;
