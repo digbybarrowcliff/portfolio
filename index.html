@@ -1,57 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Document</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+<body>
 
-    <style>
-
-    </style>
-    
-    <body>
-
-<div class="navbar">
-    <div class="about"><a class="info" id href="#about">About</a></p></div>
-    <div class="portfolio"><a class="info" href="#portfolio">Portfolio</a></p></div>
-    <div class="contact"><a class="info" id href="#contact">Contact</a></p></div>
-</div>
-
-<!-- ABOUT SECTION -->
-<br id="about"></br>
-<div id="abouthead"> 
-<div><h2>Digby Barrowcliff</h2></div>
-<div><h3>Junior Developer</h3></div>
-<p id="portfolio"></p>
-<div class="about"><p></p> 
-<p>Integrated Masters in Neuroscience Graduate</p>
-<p>Head of Rainy City Radio</p>
-</div> 
-</div>
-<!-- PORTFOLIO SECTION -->
-<div class="portfolio"> 
-<div class="portfoliopics" width="471px" height="471px"><img src="./images/blurtry mesquare.jfif" alt="blurry picture of a person"><p >project 1 - testing the rest of the box if it wraps around</p></div>
-<div class="portfoliopics" width="471px" height="471px"><img src="./images/blurtry mesquare.jfif" alt="blurry picture of a person"><p >project 1</p></div>
-<div class="portfoliopics" width="471px" height="471px"><img src="./images/blurtry mesquare.jfif" alt="blurry picture of a person"><p >project 1</p></div>
-<div class="portfoliopics" width="471px" height="471px"><img src="./images/blurtry mesquare.jfif" alt="blurry picture of a person"><p >project 1</p></div>
-<div class="portfoliopics" width="471px" height="471px"><img src="./images/blurtry mesquare.jfif" alt="blurry picture of a person"><p >project 1</p></div>
-<div class="portfoliopics" width="471px" height="471px"><img src="./images/blurtry mesquare.jfif" alt="blurry picture of a person"><p >project 1</p></div>
-</div>
-
-<!-- CONTACT -->
-<div>
-    <h4 id="contact">Contact me</h4>
-    <div class="icons">
-        <div class="mailicon"><a href="mailto:d.barrowcliff@outlook.com"><img src="./images/emailicon.png" width="50px" height="50px" alt="email icon"> </a>
+    <!-- NAVBAR -->
+    <div id="navbar">
+        <div class="navbarBox">
+            <div id="navbarAboutbox"><a href="#about"><p>About</p></a></div>
         </div>
-        <div class="githubicon"><a href="https://github.com/digbybarrowcliff" target="_blank"><img src="./images/githubicon.png"  width="50px" height="50px" alt="github icon"></a>
+        <div class="navbarBox">
+            <div id="navbarPortfoliobox">
+                <a href="#portfolio"><p>Portfolio</p></a>
         </div>
     </div>
-</div>
-<script src="/portfolio.js"></script>
-    </body>
+        <div class="navbarBox">
+            <div id="navbarContactbox">
+                <a href="#contact"><p>Contact</p></a>
+            </div>
+        </div>
+    </div>
+<br id="about"></br>
+    <!-- ABOUT  -->
+
+    <div id="abouttext">
+        <!-- <br></br> -->
+        <div>
+            <h1>Digby Barrowcliff</h1>
+            <h2>Junior Developer</h2>
+        <p>Hi, my name is Digby and welcome to my portfolio</p>
+        <p>I am a recent Junior Developer having completed Code Nation's 10 week Compsci bootcamp</p>
+        <br></br>
+    </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+
+    <div id="portfolio">
+        <div id="portfolioGrid">
+            <div class="portfolioPic" width="471px" height="471px" alt="portfoliopicture"><img src="./Images/blurtry mesquare.jfif" alt="motion blurred picture of a person"><p>Project text underneath the picture to show examples</p></div>
+            <div class="portfolioPic" width="471px" height="471px"><img src="./Images/blurtry mesquare.jfif" alt="motion blurred picture of a person"><p>Project text underneath the picture to show examples</p></div>
+            <div class="portfolioPic" width="471px" height="471px"><img src="./Images/blurtry mesquare.jfif" alt="motion blurred picture of a person"><p>Project text underneath the picture to show examples</p></div>
+            <div class="portfolioPic" width="471px" height="471px"><img src="./Images/blurtry mesquare.jfif" alt="motion blurred picture of a person"><p>Project text underneath the picture to show examples</p></div>
+            <div class="portfolioPic" width="471px" height="471px"><img src="./Images/blurtry mesquare.jfif" alt="motion blurred picture of a person"><p>Project text underneath the picture to show examples</p></div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+
+    <div id="contact">
+        <div><h2 id="contactMe">Contact me</h2></div>
+        <div id="contactIcons">
+            <div class="icon"><a href="mailto:d.barrowcliff@outlook.com" target="_blank"><img src="./Images/emailicon.png" width="70px" height="70px" alt="mail icon"></a></div>
+            <div class="icon"><a href="https://github.com/digbybarrowcliff" target="_blank"><img src="./Images/githubicon.png" width="70px" height="70px" alt="github icon"></a></div>
+        </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>    
+</body>
 </html>
