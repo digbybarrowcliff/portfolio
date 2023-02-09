@@ -15,7 +15,7 @@ body {
 /* NAVBAR */
 
 #navbar {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex; /*look up a complete guide to flexbox for more info */
     justify-content: space-around;
     align-items: center;
@@ -30,10 +30,9 @@ body {
     z-index: 100;
 }
 .navbarBox {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font: 4.1em arial, sans-serif;
     color: pink;
-    display: inline;
     margin-left: 50px;
     height: 20vh;
 }
@@ -57,12 +56,11 @@ body {
 /* .navbarBox a:active {
     color: pink;
 } */
-#navbarPortfoliobox {
+/* #navbarPortfoliobox {
     width: 100%;
     border: 1px solid black;
     vertical-align: top;
-    text-align: center;
-}
+} */
 
 
 /* ABOUT */
