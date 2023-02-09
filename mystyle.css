@@ -28,12 +28,13 @@ body {
     background-color: transparent;
     opacity: 1;
     z-index: 100;
+    margin-top: 2%;
 }
 .navbarBox {
     /* border: 1px solid black; */
     font: 4.1em arial, sans-serif;
     color: pink;
-    margin-left: 50px;
+    margin-left: 40px;
     height: 20vh;
 }
 
@@ -70,7 +71,7 @@ body {
     text-align: center;
     font: 1.56em helvetica, sans-serif;
     color: pink;
-    margin-top: 9%;
+    margin-top: 7%;
     align-items: center;
 }
 
